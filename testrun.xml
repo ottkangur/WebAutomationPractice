@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Dress">
+        <groups>
+            <run>
+                <include name="dress"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="AutomationPracticeTest"/>
+        </classes>
+    </test>
+    <test name="Ultimate QA test">
+        <classes>
+            <class name="UltimateQATest"></class>
+        </classes>
+    </test>
+</suite>

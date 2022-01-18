@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-09T14:48:52 EET" name="Suite" finished-at="2022-01-09T14:49:31 EET" duration-ms="38914">
+    <groups>
+    </groups>
+    <test started-at="2022-01-09T14:48:52 EET" name="Dress" finished-at="2022-01-09T14:49:23 EET" duration-ms="30666">
+      <class name="AutomationPracticeTest">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:48:52 EET" name="openChrome" finished-at="2022-01-09T14:48:58 EET" duration-ms="6062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:48:58 EET" name="startTest" finished-at="2022-01-09T14:48:58 EET" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="blouseTest()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:48:58 EET" name="blouseTest" finished-at="2022-01-09T14:49:04 EET" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blouseTest -->
+        <test-method signature="womenProductsTest()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:04 EET" name="womenProductsTest" finished-at="2022-01-09T14:49:06 EET" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womenProductsTest -->
+        <test-method signature="dressesTest()[pri:1, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:06 EET" name="dressesTest" finished-at="2022-01-09T14:49:09 EET" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dressesTest -->
+        <test-method signature="pickDressTest()[pri:1, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:09 EET" name="pickDressTest" finished-at="2022-01-09T14:49:14 EET" duration-ms="5254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickDressTest -->
+        <test-method signature="nextInteractivePicture()[pri:2, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:14 EET" name="nextInteractivePicture" finished-at="2022-01-09T14:49:21 EET" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextInteractivePicture -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:21 EET" name="endTest" finished-at="2022-01-09T14:49:22 EET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:AutomationPracticeTest@29176cc1]" started-at="2022-01-09T14:49:22 EET" name="closeChrome" finished-at="2022-01-09T14:49:23 EET" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- AutomationPracticeTest -->
+    </test> <!-- Dress -->
+    <test started-at="2022-01-09T14:49:23 EET" name="Ultimate QA test" finished-at="2022-01-09T14:49:31 EET" duration-ms="8208">
+      <class name="UltimateQATest">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:UltimateQATest@20d28811]" started-at="2022-01-09T14:49:23 EET" name="openPage" finished-at="2022-01-09T14:49:25 EET" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="test1()[pri:0, instance:UltimateQATest@20d28811]" started-at="2022-01-09T14:49:25 EET" name="test1" finished-at="2022-01-09T14:49:31 EET" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:UltimateQATest@20d28811]" started-at="2022-01-09T14:49:31 EET" name="test2" finished-at="2022-01-09T14:49:31 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- UltimateQATest -->
+    </test> <!-- Ultimate QA test -->
+  </suite> <!-- Suite -->
+</testng-results>
