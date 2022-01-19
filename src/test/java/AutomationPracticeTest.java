@@ -15,8 +15,8 @@ import static org.testng.Assert.assertEquals;
 
 
 public class AutomationPracticeTest extends DriverInitializer {
-    ExtentReports report;
-    ExtentTest testReport;
+    static ExtentReports report;
+    static ExtentTest testReport;
     AutomationPracticePage automationPracticePage = new AutomationPracticePage();
 
     @BeforeClass
@@ -53,8 +53,6 @@ public class AutomationPracticeTest extends DriverInitializer {
         testReport.log(Status.INFO, "Search value set to \"Blouse\" ");
         automationPracticePage.submitButton.clickButton();
         testReport.log(Status.INFO, "Search started");
-//        automationPracticePage.productName.textOnPage();
-//        testReport.log(Status.PASS, "Product name found: " + automationPracticePage.productName.textOnPage());
         String expectedResult = "Blouse";
 
         assertEquals(automationPracticePage.productName.textOnPage(), expectedResult);
@@ -63,8 +61,8 @@ public class AutomationPracticeTest extends DriverInitializer {
     @Test(enabled = true, priority = 1, groups = {"dress"})
     public void dressesTest() {
         initialiseWebDriver("http://automationpractice.com/index.php");
-        ExtentReports internalReport = new ExtentReports();
-        testReport = internalReport.createTest("Dresses report");
+//        ExtentReports internalReport = new ExtentReports();
+        testReport = report.createTest("Dresses report");
         automationPracticePage.dressesButton.clickButtonJS();
         testReport.log(Status.INFO, "\"Dresses\" button clicked");
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) getWebDriver();
